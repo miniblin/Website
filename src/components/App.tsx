@@ -1,9 +1,12 @@
 import * as React from "react";
-
-export interface AppProps {}
-
+import Footer from './Footer'
+export interface AppProps { }
+import Hero from './Hero'
 export default function App(props: AppProps) {
     return (
-        <h1>Hello!</h1>
+        <>
+            <Hero />
+            <Footer />
+        </>
     )
 }  
