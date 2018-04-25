@@ -1,0 +1,95 @@
+{
+    "bio": {
+        "intro": "I am a Programmer and Computer Science graduate currently completing an MSc in Computing with Digital Media at  the University of Sussex, I have experience with 3D modelling and animation, programming for 3D and  full stack development. I am also comfortable with both Android  and Unity development and  am proficient in version control. I love playing and making games.",
+        "detailed": "Over the last 4 years I've been completing my undergraduate degree (and now Masters) in Computer Science at the University of Sussex where achieved First Class Honours (Wooo!). I loved excelling at subjects such as Comparative Programming, Human Computer Interaction and Multimdedia Designand Applications. I've been spending most of my time (whilst not studying) over the last few (eight) years working as a bar manager for Whitbread. I pull a mean pint."
+    },
+    "projects": [
+        {
+            "title": "Flocking",
+            "year": "2018",
+            "description": "A game about a Fox, that likes to cross roads, eat chickens, and not die. Developed in JavaScript and HTML5.",
+            "image": "a.jpg",
+            "skills": [
+                "Unity",
+                "C#",
+                "Optimisation"
+            ]
+        },
+        {
+            "title": "Murder With Friends",
+            "year": "2018",
+            "description": "A game about a Fox, that likes to cross roads, eat chickens, and not die. Developed in JavaScript and HTML5.",
+            "image": "a.jpg",
+            "skills": [
+                "Unity",
+                "C#",                
+                "Team Work",
+                "Git flow"
+            ]
+        },
+        {
+            "title": "Drunken Tanks",
+            "year": "2017",
+            "description": "A game about a Fox, that likes to cross roads, eat chickens, and not die. Developed in JavaScript and HTML5.",
+            "image": "a.jpg",
+            "skills": [
+                "Unity",
+                "C#",
+                "3D Modelling"
+            ]
+        },
+        {
+            "title": "CrossyFox",
+            "year": "2008–2013",
+            "description": "A game about a Fox, that likes to cross roads, eat chickens, and not die. Developed in JavaScript and HTML5.",
+            "image": "a.jpg",
+            "skills": [
+                "TypeScript",
+                "HTML5"
+            ]
+        },
+        {
+            "title": "Dimersion",
+            "year": "2008–2013",
+            "description": "A 2D/3D space shooter with a dimension swapping mechanic. Obstacles that cannot be dodged in one perspective can easily be avoided when switching dimensions. Tech Demo created in Unity and C#",
+            "image": "a.jpg",
+            "skills": [
+                "Unity",
+                "C#"
+            ]
+        },
+        {
+            "title": "Lamp animation",
+            "year": "2008–2013",
+            "description": "An animation of a lamp chasing a ball, and an Alien walk cycle. Animated in 3ds MAX.",
+            "image": "a.jpg",
+            "skills": [
+                "3DS Max",
+                "Animation"
+            ]
+        },
+        {
+            "title": "Ball Animation",
+            "year": "2008–2013",
+            "description": "A couple of 3D animations involving balls. Animated in 3ds MAX.",
+            "image": "a.jpg",
+            "skills": [
+                "3DS Max",
+                "Animation"
+            ]
+        },
+        {
+            "title": "Ball Animation",
+            "year": "2008–2013",
+            "description": " A U.K based property price heatmap application. Users can search any city by postcode or use their current location. House prices in the area are displayed on a scale of green (cheaper) to red (expensive). By zooming in fully, individual prices are displayed. Full-stack development in Java, HTML5, PHP and MySQL.",
+            "image": "a.jpg",
+            "skills": [
+                "android",
+                "Java",
+                "PHP",
+                "HTML5",
+                "MySQL"
+            ]
+        }       
+    ]
+}
