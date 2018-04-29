@@ -1,8 +1,9 @@
 import * as React from "react";
 import MoreInfo from './MoreInfo'
+
 export default function Hero() {
     return (
-        <section className="hero">
+        <section>
             <div className="wrap">
                 <img src="./images/dave.png" alt="Dave profile" />
                 <h1>Hi, I'm Dave Lewis </h1>
