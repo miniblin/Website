@@ -1,14 +1,46 @@
 {
     "compilerOptions": {
-        "outDir": "./dist/",
-        "sourceMap": true,
-        "noImplicitAny": true,
-        "module": "commonjs",
         "target": "es5",
+        "module": "es6",
+        "lib": [
+            "es2015",
+            "dom",
+            "scripthost"
+        ],
+        "allowSyntheticDefaultImports": true,
+        "moduleResolution": "node",
+        "allowJs": true,
         "jsx": "react",
-        "types": ["jest"]
+        "baseUrl": ".",
+        "paths": {
+            "*": [
+                "*",
+                "src/*",
+                "custom_typings/*"                
+            ]
+        },
+        "sourceMap": true
     },
-    "include": [    
-        "./src/**/*" 
+    "include": [
+        "src/**/*"
+    ],
+    "exclude": [
+        "node_modules"
     ]
 }
+
+//old below (doesnt work with css modules)
+// {
+//     "compilerOptions": {
+//         "outDir": "./dist/",
+//         "sourceMap": true,
+//         "noImplicitAny": true,
+//         "module": "commonjs",
+//         "target": "es5",
+//         "jsx": "react",
+//         "types": ["jest"]
+//     },
+//     "include": [    
+//         "./src/**/*" 
+//     ]
+// }

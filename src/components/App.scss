@@ -1,0 +1,10 @@
+.container {
+    flex-grow: 1;
+    color:blue;
+    .page {
+        flex-flow: row nowrap;
+        flex-grow: 1;
+        align-self: stretch;
+        align-items: stretch;
+    }
+}
