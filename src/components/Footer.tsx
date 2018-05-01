@@ -7,7 +7,7 @@ export default function Footer() {
         <h4>Contact Me</h4>
         <hr />
         <a href="#"><span>Email</span> dave@davethings.com</a>
-        <a href="#"><span>Address</span> Brighton</a>
+        <a href="#"><span>Address</span> London</a>
       </div>
 
       <div className="column">
