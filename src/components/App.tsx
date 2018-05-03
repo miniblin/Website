@@ -7,9 +7,13 @@ import Navigation from './Navigation'
 export default function App(props: AppProps) {
     return (
         <div className={styles.container}>
-            <Navigation />
-            <Hero />
-            <Footer />
+            <div className={styles.page}>
+                <Navigation />
+                <div className={styles.content}>
+                    <Hero />
+                    <Footer />
+                </div>
+            </div>
         </div>
     )
 }  

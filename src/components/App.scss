@@ -1,10 +1,37 @@
 .container {
     flex-grow: 1;
-    color: blue;
     .page {
         flex-flow: row nowrap;
         flex-grow: 1;
         align-self: stretch;
-        align-items: stretch;
+        align-items: stretch;  
+        .content{
+            padding:20px;
+        }      
     }
 }
+
+:global body {
+    position:absolute;
+    background-color: #f3f3f4;
+    color: #797979;
+    height: 100%;
+    font-size: 12px;
+    font-weight: normal;
+    display: flex;
+    flex-flow: column;
+    overflow: hidden;
+    height:100%;
+    width:100%;
+    margin:0px;
+}
+
+:global div {
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+
+:global body > div[id=app] {
+    flex: 1 1 auto;
+    overflow: auto; }
